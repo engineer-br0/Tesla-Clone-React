@@ -20,16 +20,14 @@ reportWebVitals();
 import React from "react";
 import ReactDOM from 'react-dom/client';
 import './index.css'
-import Expenses2 from './App.js'
+import App from "./App";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
-    <div className="ind">
-     <div>index.js</div> 
-    <Expenses2></Expenses2>
-    </div>
+  <div>
+    <App></App>
+  </div>
 );
 
 
